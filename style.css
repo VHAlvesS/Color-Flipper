@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+margin:0;
+padding:0;
+letter-spacing: 1px;
+}
+
+img {
+max-width:100%;
+display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 7px 5px -1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 7px 5px -1px rgba(0,0,0,0.1);
+    box-shadow: 0px 7px 5px -1px rgba(0,0,0,0.1);
+}
+
+.max-wdt {
+    max-width: 64rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.max-wdt > div > h1 {
+    color: #880808;
+}
+
+.max-wdt > div > span {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.max-wdt > div > span:hover {
+    color: #880808;
+    cursor: pointer;
+}
+
+.MainBG {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.MainBG > span {
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid #222;
+    transition: 0.5s all;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.MainBG > span:hover {
+    background-color: #222;
+    color: white;
+}
+
+.MainBG > p {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #222;
+    padding: 1rem;
+    border-radius: .5rem;
+    color: white;
+}
